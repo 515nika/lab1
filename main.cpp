@@ -3,8 +3,8 @@
 using namespace std;
 
 /**
- * @brief Заполняет массив числами, введенными пользователем.
- * @param arr Ссылка на массив из 10 целых чисел.
+ * @brief заполняет массив числами, введенными пользователем
+ * @param arr ссылка на массив из 10 целых чисел
  */
 void fillArray(int (&arr)[10])
 {
@@ -17,8 +17,8 @@ void fillArray(int (&arr)[10])
 }
 
 /**
- * @brief Выводит все элементы массива на экран.
- * @param arr Ссылка на массив из 10 целых чисел.
+ * @brief Выводит все элементы массива на экран
+ * @param arr Ссылка на массив из 10 целых чисел
  */
 void printArray(const int (&arr)[10])
 {
@@ -31,10 +31,10 @@ void printArray(const int (&arr)[10])
 }
 
 /**
- * @brief Меняет местами два элемента массива.
- * @param arr Ссылка на массив.
- * @param first Индекс первого элемента.
- * @param second Индекс второго элемента.
+ * @brief Меняет местами два элемента массива
+ * @param arr Ссылка на массив
+ * @param first Индекс первого элемента
+ * @param second Индекс второго элемента
  */
 void swapElements(int (&arr)[10], int first, int second)
 {
@@ -44,8 +44,8 @@ void swapElements(int (&arr)[10], int first, int second)
 }
 
 /**
- * @brief Умножает каждый элемент массива на два.
- * @param arr Ссылка на массив.
+ * @brief Умножает каждый элемент массива на два
+ * @param arr Ссылка на массив
  */
 void multiplyByTwo(int (&arr)[10])
 {
@@ -64,7 +64,7 @@ int main()
     cout << "Исходный массив: ";
     printArray(arr);
 
-    swapElements(arr, 0, 9);
+    swapElements(arr, 4, 5);
 
     cout << "После обмена первого и последнего элементов: ";
     printArray(arr);
